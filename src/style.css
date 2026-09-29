@@ -9,6 +9,29 @@ html, body {
     font-family: Roboto, sans-serif;
 }
 
+nav {
+    background-color: #afafaf;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.title-container em {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: Brush Script MT, Comic Sans MS;
+    margin-right: 16px;
+}
+
+.title-container img{
+    width: 128px;
+    height: 128px;
+}
+
 .review-container {
     padding: 64px;
     height: auto;
@@ -51,19 +74,24 @@ html, body {
 }
 
 .location-container {
-    padding: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
     height: auto;
     background-color: #EE1B24;
 }
 
 .location-container h2 {
-    font-size: 62px;
+    color: #ffff;
+    font-size: 32px;
     font-weight: 800;
     margin-bottom: 16px;
 }
 
 .location-container p {
-    font-size: 40px;
+    color: #ffff;
+    font-size: 24px;
     font-weight: 600;
     margin: 16px auto 16px auto;
 }
