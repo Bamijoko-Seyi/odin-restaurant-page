@@ -28,6 +28,89 @@ nav button {
     cursor: pointer;
 }
 
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.title-container em {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: Brush Script MT, Comic Sans MS;
+    margin-right: 16px;
+}
+
+.title-container img {
+    width: 128px;
+    height: 128px;
+}
+
+.review-container {
+    padding: 64px;
+    height: auto;
+    background-color: #00A652;
+}
+
+.review-container p {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+
+.review-container em {
+    color: #ffffff;
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 128px;
+}
+
+.schedule-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.schedule-container h2 {
+    font-size: 62px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.schedule-container p {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 16px auto 16px auto;
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    height: auto;
+    background-color: #EE1B24;
+}
+
+.location-container h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.location-container p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px auto 16px auto;
+}
+
 .menu-title-container {
     background-color: #EE1B24;
     padding: 48px;
@@ -131,9 +214,9 @@ nav button {
 }
 
 .menu-item-image {
-    width: 192px;
-    height: 192px;
-    object-fit: cover;
+    width: 256px;
+    height: 256px;
+    object-fit: contain;
     border-radius: 16px;
     margin-bottom: 16px;
 }
@@ -150,4 +233,66 @@ nav button {
 
 .sides-item .menu-item-price {
     color: #EE1B24;
+}
+
+.contact-title-container {
+    background-color: #EE1B24;
+    padding: 48px;
+    text-align: center;
+}
+
+.contact-title-container h1 {
+    color: #ffffff;
+    font-size: 96px;
+    font-weight: 800;
+    font-family: Brush Script MT, Comic Sans MS;
+}
+
+.contact-container {
+    background-color: #00A652;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-name {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    font-family: Brush Script MT, Comic Sans MS;
+}
+
+.contact-role {
+    font-size: 28px;
+    font-weight: 700;
+    color: #EE1B24;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.contact-phone {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.contact-email {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00A652;
 }
